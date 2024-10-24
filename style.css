@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.acceuil{
+    width: 100vw;
+    height: 100vh;
+    Background-color:blue;
+    display:flex;
+    justify-content:space-around;
+  }
+  
+  .gauche{
+    width: 70%;
+    height: 100%;
+    Background-color:green;
+  }
+  
+  .droite{
+    width: 20%;
+    height: 100%;
+    background-color:red;
+  }
+  
+  .logo{
+    width: 230px;
+    height: 187px;
+    Background-color:pink;
+  }
+  .Titre{
+    font-size:73px;
+   }
+  
+  
+  .text{
+    font-size:32px;
+    font-family:Jacques-Francois;
+  }
+  
+  .btn{
+    font-size:32px;
+  }
