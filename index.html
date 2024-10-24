@@ -1,33 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Thierno</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./_180fab1c-c6fc-414d-a7fb-e3b969eb5ea2-removebg-preview.png" type="image/x-icon">
 </head>
 <body>
-    <div class="acceuil">
-        <div class="gauche">
-          <div class="logo"></div>
-          <image class="img"></image>
-          <h1 class="Titre">Bah Thierno</h1>
-          <p class="text">Développeur web débutant, en apprentissage des bases du développement web. Passionné par la création de sites, je suis motivé pour continuer à progresser et acquérir de nouvelles compétences.</p>
-          <button class="btn">CV-Papier</button>
-        </div>
-        <div class="droite"></div>
-        <a href="" class="experience"></a>
-        <a href="" class="formation"></a>
-        <a href="" class="competence"></a>
-        <a href="" class="divers"></a>
-        <a href="" class="contact"></a>
+    <body id="body">
         
-      </div>
- 
- 
- 
- 
- 
-    <script src="main.js"></script>   
+    </body>
+    <video id="background-video" autoplay loop muted>
+
+        <source id="video-source" src="./92463-637274756_large.mp4" type="video/mp4">
+        
+        </video>
+        
+         
+        
+        <div class="content">
+          <div class="page">
+            <div id="nav">
+                <button class="mode" onclick="jour()">Jour/Nuit</button>
+                <a href="#" class="lien">Home</a>
+                <a href="#page2" class="lien">About</a>
+                <a href="" class="lien">Projet</a>
+                <a href="" class="lien">Contact</a>
+            </div>
+            <div class="name"><h1 class="title">Bah Thierno</h1>
+                <p class="nametxt">Developpeur Web junior</p>
+            </div>
+            
+          </div>
+          <div id="page2" class="page">
+            <h1 class="title">About me</h1>
+            <div id="about">
+                <div id="about1"> 
+                    <p id="about-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi facilis eligendi, tenetur magni omnis magnam fuga praesentium vitae, maiores ipsa impedit porro veniam provident ut molestiae natus architecto! Fugit, non?
+        
+                </p>
+            </div>
+            <div class="fleche bounce-top">
+                <a href="#page2">
+                    <img src="./icons8-flèche-bas-50.png" alt="">
+                </a>
+            </div>
+            <div class="reseau"><a href="" class="icon">
+                <img src="./icons8-cv-50.png" alt="" class="iconeimage">
+            </a><a href="" class="icon">
+                <img src="./icons8-github-50.png" alt="" class="iconeimage">
+            </a><a href="" class="icon">
+                <img src="./icons8-linkedin-50.png" alt="" class="iconeimage">
+            </a>
+        </div>
+                
+            </div>
+                
+           
+          </div>
+          <div class="page">
+            <h1 class="title">Skills</h1>
+            <div class="skills">
+                <div class="skillsenfant">
+                    <img src="./icons8-html-48.png" alt="">
+                    <h3 class="skill1">Maquette figma</h3>
+                    <p class="htmltxt">creation de maquette web sur le logiciel en ligne fima</p>
+                </div>
+                <div class="skillsenfant">
+                    <img src="./icons8-css-48.png" alt="">
+                    <h3 class="skill1">Maquette figma</h3>
+                    <p class="htmltxt">creation de maquette web sur le logiciel en ligne fima</p>
+                </div>
+                <div class="skillsenfant">
+                    <img src="./icons8-javascript-64.png" alt="">
+                    <h3 class="skill1">Maquette figma</h3>
+                    <p class="htmltxt">creation de maquette web sur le logiciel en ligne fima</p>
+                </div>
+            </div>
+            </div>
+            <div class="page">
+                <h1 class="title">Projet</h1>
+                <div class="projet">
+                    <div id="jeu"></div>
+                    <div class="div2">
+                        <div id="todo"></div>
+                        <div id="encours"></div>
+                    </div>
+                    <div id="m"></div>
+                </div>
+            </div>
+            <div class="page">
+                <h1 class="title">Contact</h1>
+                <form
+  action="https://formspree.io/f/xvgogwak"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+            </div>
+          </div>
+    
+        
+        </div>
+  
+  
+  
+  
+  
+  
+  
+    <script src="main.js"></script>
 </body>
 </html>
