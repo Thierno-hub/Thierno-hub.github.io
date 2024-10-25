@@ -174,14 +174,14 @@ html{
 }
 
 .iconehtml{
-    width: 100px;
+    width: 85px;
 }
 
 .iconejs{
-    width: 100px;
+    width: 85px;
 }
 .iconecss{
-    width: 100px;
+    width: 85px;
 }
 
 .skillsenfant{
@@ -277,6 +277,10 @@ form button[type="submit"] {
     color: white;
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+label{
+    color:white;
 }
 
 /* Responsive pour mobiles */
