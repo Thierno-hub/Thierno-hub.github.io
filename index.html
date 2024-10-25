@@ -13,7 +13,7 @@
     </body>
     <video id="background-video" autoplay loop muted>
 
-        <source id="video-source" src="./gokudark.mp4" type="video/mp4">
+        <source id="video-source" src="./gokussj.mp4" type="video/mp4">
         
         </video>
         
@@ -22,11 +22,12 @@
         <div class="content">
           <div class="page">
             <div id="nav">
-                <button class="mode" onclick="jour()">Jour/Nuit</button>
+                <button class="mode" id="jn" onclick="jour()">Jour/Nuit</button>
                 <a href="#" class="lien">Home</a>
                 <a href="#page2" class="lien">About</a>
-                <a href="" class="lien">Projet</a>
-                <a href="" class="lien">Contact</a>
+                <a href="#page3" class="lien">Skills</a>
+                <a href="#page4" class="lien">Projet</a>
+                <a href="#page5" class="lien">Contact</a>
             </div>
             <div class="name"><h1 class="title">Bah Thierno</h1>
                 <p class="nametxt">Developpeur Web junior</p>
@@ -60,30 +61,31 @@
                 
            
           </div>
-          <div class="page">
+          <div id="page3" class="page">
             <h1 class="title">Skills</h1>
             <div class="skills">
                 <div class="skillsenfant">
-                    <img src="./icons8-html-48.png" alt="">
+                    <img src="./icons8-html-48.png" alt="" class="iconehtml">
                     <h3 class="skill1">Maquette figma</h3>
                     <p class="htmltxt">creation de maquette web sur le logiciel en ligne fima</p>
                 </div>
                 <div class="skillsenfant">
-                    <img src="./icons8-css-48.png" alt="">
+                    <img src="./icons8-css-48.png" alt="" class="iconecss">
                     <h3 class="skill1">Maquette figma</h3>
                     <p class="htmltxt">creation de maquette web sur le logiciel en ligne fima</p>
                 </div>
                 <div class="skillsenfant">
-                    <img src="./icons8-javascript-64.png" alt="">
+                    <img src="./icons8-javascript-64.png" alt="" class="iconejs">
                     <h3 class="skill1">Maquette figma</h3>
                     <p class="htmltxt">creation de maquette web sur le logiciel en ligne fima</p>
                 </div>
             </div>
             </div>
-            <div class="page">
+            <div id="page4" class="page">
                 <h1 class="title">Projet</h1>
                 <div class="projet">
-                    <div id="jeu"></div>
+                    <div id="jeu">
+                    </div>
                     <div class="div2">
                         <div id="todo"></div>
                         <div id="encours"></div>
@@ -91,7 +93,7 @@
                     <div id="m"></div>
                 </div>
             </div>
-            <div class="page">
+            <div id="page5" class="page">
                 <h1 class="title">Contact</h1>
                 <form
   action="https://formspree.io/f/xvgogwak"

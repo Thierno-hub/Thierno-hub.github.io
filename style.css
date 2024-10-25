@@ -135,6 +135,13 @@ html{
         bottom: 30px;
     }
 
+    #jn{
+        height: 35px;
+        width: 80px;
+        background-color: black;
+        color:white; 
+    }
+
     .iconimage{
         width: 50px;
     }
@@ -166,6 +173,17 @@ html{
 
 }
 
+.iconehtml{
+    width: 100px;
+}
+
+.iconejs{
+    width: 100px;
+}
+.iconecss{
+    width: 100px;
+}
+
 .skillsenfant{
     width: 25%;
     height: 80%;
@@ -180,6 +198,7 @@ html{
 
 .htmltxt{
     color:white;
+
 }
 
 .skill1{
@@ -199,6 +218,13 @@ html{
     width: 33%;
     height: 100%;
     background-color: blue;
+    display:flex;
+    
+}
+
+#pjeu{
+    color:white;
+    font-size: large;
 }
 
 .div2{
@@ -280,7 +306,7 @@ form button[type="submit"] {
     form label {
         display: block; /* Chaque étiquette prend une nouvelle ligne */
         margin-bottom: 10px; /* Espacement entre les étiquettes et les champs */
-        color: black; /* Couleur du texte des étiquettes */
+        color: white; /* Couleur du texte des étiquettes */
     }
     
     form input,
